@@ -1,0 +1,18 @@
+
+.pie{
+    display: flex;
+    color: rgb(17, 17, 17);
+    justify-content:space-between;
+    
+    
+
+}
+.pie .num{
+    padding: 0 30px 0;
+}
+
+
+
+.pie .insta{
+    color: rgb(14, 13, 13);
+}

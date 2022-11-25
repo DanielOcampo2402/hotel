@@ -1,0 +1,47 @@
+.nav{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    background-color: rgba(9, 240, 240, 0.385);
+}
+
+.nav.active{
+    background:rgb(236, 6, 6);
+    padding: 15px;
+}
+
+.nav.active a{
+    color: #000;
+}
+
+.nav.active a:hover{
+    background: rgb(19, 18, 18);
+    color: rgb(10, 10, 10);
+}
+
+.menu{
+    display: flex;
+    margin: auto;
+}
+
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px;
+    background:rgb(112, 111, 111);
+    color: #000;
+    border-radius: 15px;
+
+}
